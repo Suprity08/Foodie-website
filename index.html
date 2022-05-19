@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="logo.ico"/>
+  <title>BHUKखड़</title>
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@800&family=Pacifico&family=Ubuntu&display=swap" rel="stylesheet">
+
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css">
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/9b5a99d6d1.js" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
+      <a class="navbar-brand" href=""><img class="logo" src="logo.png" alt="logo-img"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+  <div class="container-fluid">
+    <!-- Title -->
+  <div class="row">
+    <div class="col-lg-6">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="none">
+        <div class="carousel-inner heading">
+          <div class="carousel-item active">
+            <h1>Are you <br>Hungry?</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Wanna eat Chicken Chilli ? </h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Wanna eat<br> Shahi Paneer ?</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Mom is not at home</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Sudden guest arrival!</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Party with friends!</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Don't wanna cook ?</h1>
+          </div>
+        </div>
+      </div>
+  
+      <!--Search Button-->
+      <div class="form-outline">
+        <input type="search" id="form1" class="form-control" placeholder="Type the CUISINE you are searching for" aria-label="Search" />
+      </div>
+      <button type="button" class="btn btn-outline-dark btn-lg foodie-button"><i class="fa-solid fa-champagne-glasses"></i> Take Up a Foodie Ride </button>
+    </div>
+</div>
+  </section>
+
+
+  <!-- Login -->
+
+  <section id="login-page">
+    <form action="action_page.php" method="post">
+      <div>
+        <h2 class="login-heading col-md-6">Be a part of our foodie Family</h2>
+      </div>
+    
+      <div class="container">
+        <label for="uname"></label>
+        <input type="text" placeholder="Username" name="uname" required>
+    <br>
+        <label for="psw"></label>
+        <input type="password" placeholder="Password" name="psw" required>
+        <div class="row">
+        <div class="col-md-6" id="login">
+          <button type="submit">Login</button>
+        </div>
+        <div class="col-md-6" id="signup">
+          <button type="submit">Sign Up</button>
+        </div>
+        </div>
+        <br>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">Password?</a></span>
+      </div>
+    </form>
+  </section>
+
+<!--Features-->
+
+
+<section id="features">
+  <div class="row">
+  <div class="feature-box col-lg-3">
+    <i class="icon fa-solid fa-bowl-rice fa-4x"></i>
+    <h3>Quality food</h3>
+    <p>ensuring the healthy & tasty food of better quality and texture.</p>
+  </div>
+  
+  <div class="feature-box col-lg-3">
+    <i class="icon fa-solid fa-people-carry-box fa-4x"></i>
+    <h3>Take Away option</h3>
+    <p>Don't wait,get informed only when the order is ready.</p>
+
+  </div>
+
+  <div class="feature-box col-lg-3">
+    <i class="icon fa-solid fa-sack-dollar fa-4x"></i>
+    <h3>Cash on Delivery</h3>
+    <p>Pay at your doorstep</p>
+  </div>
+
+  <div class="feature-box col-lg-3">
+    <i class="icon fa-brands fa-ideal fa-4x"></i>
+    <h3>Combo deals & Coupons</h3>
+    <p>Save upto 15% on specific combos.</p>
+  </div>
+</div>
+
+</section>
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
+      <div class="carousel-inner">
+        <h2 class="customers"><u>Our Happy Customers</u></h2>
+        <div class="carousel-item active">
+          <h2>"I love the Hyderabadi Biryani.<br>yummy and delicious!!"</h2>
+          <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/105702248/original/b76ce1e9b9c29d0dbf43b2f6c6c662f771244b63/do-passport-size-photo-from-any-photo-in-12-hour.jpg" alt="women-img">
+        </div>
+        <div class="carousel-item">
+          <h2>"I am in 9 to 5 job which is a bit hectic.<br> I completely rely on the freshly prepared food <br>& it's authentic delivery.
+           Take Away option saves a lot time."</h2>
+           <img src="https://i.pinimg.com/originals/48/35/b5/4835b5f9c52fd733eb26fb2c2b47bdc7.jpg" alt="woman-img">
+        </div>
+        <div class="carousel-item">
+          <h2>"I love to taste the food from different cuisines.
+            <br>It's pretty much affordable for a giant foodie like me!"
+          </h2>
+          <img src="https://i.pinimg.com/736x/4c/cd/08/4ccd086a8b7970c7a1ab4961e9bfcafc.jpg" alt="man-img">
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <section id="social-media">
+    <img src="https://media2.giphy.com/media/RHoariE3bABiSdmbwP/200w.webp?cid=ecf05e47y97cz6hpb4hcm4nbk0cowia2l1w031atqaanuto9&rid=200w.webp&ct=s" alt="bhukkad-img">
+    <img src="https://media0.giphy.com/media/N7RWelZgbPuQTliPYA/200w.webp?cid=ecf05e47hb9b0jxz9eiy3ekeimssby5gl57q164mj0wstna8&rid=200w.webp&ct=s" alt="yum-img">
+    <h2>End the endless food search at <br><strong class="lower-name">BHUKखड़</strong></h2>
+    <p>Just fell in love❤️ with the food again! Can't wait to try more!</p>
+
+  </section>
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="foot row">
+    <div class="medi col-lg-3">
+      <i class="fa-brands fa-twitter fa-2x"></i>
+      <p>Twitter</p>
+      </div>
+      <div class="medi col-lg-3">
+      <i class="fa-brands fa-facebook-f fa-2x"></i>
+      <p>Facebook</p>
+    </div>
+      <div class="medi col-lg-3">
+      <i class="fa-brands fa-instagram fa-2x"></i>
+      <p>Instagram</p>
+    </div>
+      <div class="medi col-lg-3">
+      <i class="fa-brands fa-linkedin-in fa-2x"></i>
+      <p>LinkedIn</p>
+    </div>
+    </div>
+  </div>
+    <p>© Copyright BHUKखड़</p>
+
+  </footer>
+
+
+</body>
+
+</html>

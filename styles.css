@@ -1,0 +1,205 @@
+body{
+    font-family:"Ubuntu";
+    background-image: url("https://wallpaperaccess.com/full/1306383.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:100%;
+
+}
+.navbar{
+    padding-bottom:0.5rem;
+}
+.navbar-brand{
+    position:-webkit-sticky;
+    height:1%;
+}
+.navbar-custom{
+    background-color:rgb(69, 67, 67);
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-family: "Montserrat-Light";
+}
+.navbar-toggler-icon{
+    position: fixed;
+    margin-left: 95%;
+}
+.foodie-button{
+    margin:5% 0.001% 50% 30%;
+    width:50%;
+}
+.heading{
+    padding:2%;
+}
+h1{
+    font-family : "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-left:15%;
+    margin-top:15%;
+    width:90%;
+}
+.container-fluid{
+    padding: 2% 10%;
+}
+.logo{
+    height:10%;
+    width:20%;
+}
+.form-outline{
+    margin-top:20% ;
+    margin-left:15%;
+}
+#login-page{
+    background-color: #edd9bbad;
+}
+#signup{
+    margin-left:25%;
+    margin-top:-6%;
+}
+.login-heading{
+    font-family:'Pacifico', cursive;
+    margin-left: 13%;
+    color:rgba(86, 85, 84, 0.722);
+    font-weight: 50;
+    padding:5%;
+}
+
+form {
+    border: 3px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    padding-top: 16px;
+    margin-left:30%;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  #features{
+      padding:10% 15%;
+      background-color:rgba(245, 245, 220, 0.834);
+  }
+  .feature-box{
+      text-align: center;
+      padding:5%;
+  }
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+p{
+    color:rgb(86, 81, 81);
+}
+.featr{
+    margin-top:6%;
+}
+.icon{
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:rgb(104, 102, 102);
+}
+#social-media{
+    padding: 7% 15%;
+    margin-left: -2%;
+    background-color: beige;
+    text-align: center;
+}
+h2{
+    font-weight:bold;
+}
+img {
+    border-radius: 100%;
+    height:10%;
+    width:20%;
+    padding:1%;
+  }
+  #testimonials{
+    background-color:#edd9bb;
+    padding:10%;
+  }
+  .carousel-inner{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.customers{
+    font-family:"Montserrat";
+    padding:auto 5% 5% 5%;
+    color: chartreuse;
+}
+.lower-name{
+    color:rgb(249, 99, 45);
+}
+  #footer{
+    text-align: center;
+    padding-bottom:2%;
+    padding-top:2%;
+    background-color:#edd9bbdf;
+  }
+  .foot{
+      padding-left: 30%;
+      padding-right: 30%;
+  }
+  .medi:hover{
+      color:rgb(148, 143, 137);
+  }
+
