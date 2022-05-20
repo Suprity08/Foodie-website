@@ -6,6 +6,40 @@ body{
     background-size:100%;
 
 }
+
+img {
+    border-radius: 100%;
+    height:10%;
+    width:20%;
+    padding:1%;
+  }
+
+h1{
+    font-family : "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-left:15%;
+    margin-top:15%;
+    width:90%;
+}
+
+h2{
+    font-weight:bold;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+p{
+    color:rgb(86, 81, 81);
+}
+
+
+/* Navigation Bar & logo styling */
+
+
 .navbar{
     padding-bottom:0.5rem;
 }
@@ -27,42 +61,37 @@ body{
     position: fixed;
     margin-left: 95%;
 }
-.foodie-button{
-    margin:5% 0.001% 50% 30%;
-    width:50%;
-}
-.heading{
-    padding:2%;
-}
-h1{
-    font-family : "Montserrat";
-    font-size: 3.5rem;
-    line-height: 1.5;
-    margin-left:15%;
-    margin-top:15%;
-    width:90%;
-}
-.container-fluid{
-    padding: 2% 10%;
-}
 .logo{
     height:10%;
     width:20%;
 }
+
+
+/* Title Carousel and Food Search Button */
+
+.container-fluid{
+    padding: 2% 10%;
+}
+.heading{
+    padding:2%;
+}
+.foodie-button{
+    margin:5% 0.001% 50% 30%;
+    width:50%;
+}
+
+/* Login Page Makeover */
+
+
+#login-page{
+    background-color: #edd9bbad;
+}
+
 .form-outline{
     margin-top:20% ;
     margin-left:15%;
 }
-#login{
-    margin-left:1%;
-}
-#login-page{
-    background-color: #edd9bbad;
-}
-#signup{
-    margin-left:25%;
-    margin-top:-6%;
-}
+
 .login-heading{
     font-family:'Pacifico', cursive;
     margin-left: 13%;
@@ -70,12 +99,17 @@ h1{
     font-weight: 50;
     padding:5%;
 }
+#login{
+    margin-left:1%;
+}
 
 form {
     border: 3px;
   }
   
   /* Full-width inputs */
+
+
   input[type=text], input[type=password] {
     width: 50%;
     padding: 12px 20px;
@@ -84,8 +118,10 @@ form {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
+
   
   /* Set a style for all buttons */
+
   button {
     background-color: #04AA6D;
     color: white;
@@ -96,36 +132,36 @@ form {
     width: 100%;
   }
   
-  /* Add a hover effect for buttons */
+  /* hover effect for buttons */
+
+
   button:hover {
     opacity: 0.8;
   }
   
-  /* Extra style for the cancel button (red) */
+  /* Cancel button */
+
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
   }
   
-  /* Center the avatar image inside this container */
-  .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-  }
-  
   /* Add padding to containers */
+
   .container {
     padding: 16px;
   }
   
-  /* The "Forgot password" text */
+  /* "Forgot password" */
+
   span.psw {
     padding-top: 16px;
     margin-left:30%;
   }
   
-  /* Change styles for span and cancel button on extra small screens */
+  /* Styles for span and cancel button on small screens */
+
   @media screen and (max-width: 300px) {
     span.psw {
       display: block;
@@ -136,6 +172,8 @@ form {
     }
   }
 
+  /* Features section */
+
   #features{
       padding:10% 15%;
       background-color:rgba(245, 245, 220, 0.834);
@@ -144,38 +182,22 @@ form {
       text-align: center;
       padding:5%;
   }
-h3{
-    font-family: "Montserrat";
-    font-size: 1.5rem;
-}
-p{
-    color:rgb(86, 81, 81);
-}
-.featr{
-    margin-top:6%;
-}
+
+
+/* Font Awesome Icons styling and Hovering feature */
+
 .icon{
     margin-bottom: 1rem;
 }
 .icon:hover{
     color:rgb(104, 102, 102);
 }
-#social-media{
-    padding: 7% 15%;
-    margin-left: -2%;
-    background-color: beige;
-    text-align: center;
-}
-h2{
-    font-weight:bold;
-}
-img {
-    border-radius: 100%;
-    height:10%;
-    width:20%;
-    padding:1%;
-  }
-  #testimonials{
+
+
+/* Testimonials Section */
+
+
+#testimonials{
     background-color:#edd9bb;
     padding:10%;
   }
@@ -189,9 +211,26 @@ img {
     padding:auto 5% 5% 5%;
     color: chartreuse;
 }
+
+ 
+
+/* Social Media Section */
+
+
+#social-media{
+    padding: 7% 15%;
+    margin-left: -2%;
+    background-color: beige;
+    text-align: center;
+}
 .lower-name{
     color:rgb(249, 99, 45);
 }
+
+
+/* Footer Section */
+
+
   #footer{
     text-align: center;
     padding-bottom:2%;
@@ -205,4 +244,5 @@ img {
   .medi:hover{
       color:rgb(148, 143, 137);
   }
+
 
